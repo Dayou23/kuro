@@ -73,7 +73,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
               height={20}
             />
             <p className="p-medium-14 md:p-medium-16 text-gray-600 pl-2">
-              {event.organizer.firstName} {event.organizer.lastName}
+              {event.organizer.username}
             </p>
           </div>
           {hasOrderLink && (

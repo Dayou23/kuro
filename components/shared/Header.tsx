@@ -7,22 +7,9 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <header
-    // className="w-full border-b"
-    >
-      <div
-      // className="wrapper flex items-center justify-between"
-      >
-        {/* <Link href="/" className="w-36">
-          <Image
-            src="/assets/images/kuraLogo.png"
-            width={128}
-            height={38}
-            alt="kuro logo"
-          />
-        </Link> */}
-
-        <nav className="relative wrapper px-4 py-4 flex justify-between items-center bg-white ">
+    <header>
+      <div>
+        <nav className="relative max-w-7xl lg:mx-auto md:px-10 xl:px-0 w-full  px-4 py-4 flex justify-between items-center bg-white">
           <Link href="/" className="w-36">
             <Image
               src="/assets/images/kuraLogo.png"
@@ -34,7 +21,7 @@ const Header = () => {
           <SignedIn>
             <NavItems />
           </SignedIn>
-          <div className="flex w-32 justify-end gap-3">
+          <div className="flex w-32 justify-end gap-3 items-center">
             <SignedIn>
               <UserButton afterSignOutUrl="/" />
               <MobileNav />

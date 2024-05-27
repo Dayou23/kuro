@@ -26,7 +26,7 @@ const NavItems = () => {
           />
         </svg>
       </li>
-      {headerLinks.map((link) => {
+      {headerLinks.map((link, index) => {
         const isActive = pathname === link.route;
 
         return (

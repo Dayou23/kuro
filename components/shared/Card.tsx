@@ -67,10 +67,10 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
         <div className="flex-between w-full">
           <div className="flex flex-row justify-center items-center">
             <Image
-              src="/assets/icons/acount.png"
+              src="/assets/icons/acount.svg"
               alt="edit"
-              width={20}
-              height={20}
+              width={14}
+              height={14}
             />
             <p className="p-medium-14 md:p-medium-16 text-gray-600 pl-2">
               {event.organizer.username}

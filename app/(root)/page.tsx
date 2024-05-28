@@ -48,9 +48,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
       </section>
       <section className="bg-secondary py-10">
         <div id="events" className="wrapper  flex flex-col gap-8 md:gap-12 ]">
-          <h2 className="h2-bold">
-            Trust by <br /> Thousands of Events
-          </h2>
+          <h2 className="h2-bold">Events</h2>
 
           <div className="flex w-full flex-col gap-5 md:flex-row">
             <Search />
